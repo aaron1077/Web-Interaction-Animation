@@ -1,0 +1,264 @@
+/*************************************************BODY*****************************************************************/
+body{
+    max-width: 1078px;
+    background-color: #fd8e2f;
+    font-family: Comic Sans MS, times, serif;
+    font: 100%/1.5;
+    margin: 36px auto;
+    border: 10px solid black;
+}
+/*********************************************HEADER*******************************************************************/
+header{
+    width: 100%;
+    height: 181px;
+    background-color: #fee529;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fd8e2f;
+    position: relative;
+    bottom: 1.33em;
+}
+
+h1{
+    position: relative;
+    top: 39px;
+}
+
+img{
+    max-width: 100%;
+    height: 725px;
+    position: relative;
+    bottom: 38px;
+}
+
+header img{
+    width: 4em;
+    height: 4em;
+    float: left;
+    position: relative;
+    left: 60px;
+    top: 15px;
+}
+/*************************************************heading 1************************************************************/
+
+/*********************************************NAV**********************************************************************/
+#nav{
+    width: 100%;
+    background: #000000;
+    position: relative;
+    top: 23px;
+}
+#nav ul li{
+    display: inline;
+    padding: .278293135436% 6.9573283859% .278293135436% 6.9573283859%;
+    font-size: .8em;
+    font-weight: bold;
+}
+#nav a{
+    text-decoration: none;
+    color: #fd8e2f;
+}
+#nav ul li a:hover{
+    color: #FFFFFF;
+}
+/**********************************************WRAPPER*****************************************************************/
+
+/*************************************************MAIN*****************************************************************/
+#main{
+    height: 639px;
+}
+/*************************************************HEADING 2************************************************************/
+#h2{
+
+    position: absolute;
+    top: 11em;
+    left: 20em;
+    color: #ffffff;
+}
+/*************************************************FOOTER***************************************************************/
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: #fee529;
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+    color: #fd8e2f;
+    margin-bottom: 25px;
+    position: relative;
+    top: 25px;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+
+/*************************************************IPHONE 4 and 5 portrait****************************************************************/
+@media (max-width: 320px){
+
+    body {
+        border: 10px solid black;
+        margin: 0px;
+    }
+
+    header{
+        font-size: .8em;
+        height: 60px;
+    }
+
+    h1{
+        margin-bottom: 0px;
+        position: relative;
+        top: 10px;
+    }
+
+    img{
+        width: 100%;
+        height: 28.1em;
+        position: relative;
+        top: 20px;
+    }
+
+    header img{
+        width: 1.5em;
+        height: 1.5em;
+        position: relative;
+        left: 6px;
+        top: 19px;
+    }
+
+    #main{
+        height: 471px;
+    }
+
+    #nav{
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        font-size: .8em;
+        top: 60px;
+
+    }
+
+    #nav li {
+        float: left;
+        padding: 1px;
+        position: relative;
+        right: 20px;
+    }
+
+    #h2{
+        position: absolute;
+        left: 25px;
+        top: 135px;
+        font-size: .8em;
+    }
+
+    footer{
+        height: 25px;
+        width: 23.5em;
+        position: absolute;
+        top: 41.7em;
+
+    }
+
+    footer p{
+        font-size: .8em;
+        position: relative;
+        bottom: 12px;
+
+    }
+}
+/*************************************************IPHONE 4 and 5 landscape****************************************************************/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    body {
+        margin: 0px auto;
+        position: relative;
+        bottom: em;
+        background-color: #fee529;
+    }
+
+    header{
+        font-size: .8em;
+        height: 60px;
+    }
+
+    h1{
+        font-size: 3em;
+        margin-bottom: 0px;
+        position: relative;
+        top: 5px;
+    }
+
+    img{
+        width: 100%;
+        height: 30.1em;
+        position: relative;
+        top: 20px;
+    }
+
+    header img{
+        width: 3em;
+        height: 3em;
+        position: relative;
+        left: 25px;
+        top: 10px;
+    }
+
+    #main{
+        height: 471px;
+    }
+
+    #nav{
+        width: 548px;
+        height: 40px;
+        position: absolute;
+        font-size: .8em;
+        top: 60px;
+
+    }
+
+    #nav li {
+        float: left;
+        padding: 1px;
+        position: relative;
+        left: 15px;
+    }
+
+    #nav li a{
+        font-size: 1.5em;
+
+    }
+
+    #h2{
+        position: absolute;
+        left: 25px;
+        top: 135px;
+        font-size: 1.5em;
+    }
+
+    footer{
+        height: 25px;
+        width: 548px;
+        position: relative;
+        bottom: 40em;
+
+    }
+
+    footer p{
+        font-size: .8em;
+        position: relative;
+        bottom: 8px;
+
+    }
+
+
+}

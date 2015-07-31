@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<!----------------------------------------------HEAD------------------------------------------------------------------->
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!---METAS--->
+
+    <link rel="stylesheet" type="text/css" href="css/interactive_map.css" />
+    <link rel ="stylesheet" href="css/style2.css" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="js/interactive_map.js"></script>
+
+    <title>Contact</title>
+</head>
+<!-----------------------------------------------BODY------------------------------------------------------------------>
+<body>
+<!----------------------------------------------WRAPPER---------------------------------------------------------------->
+    <div id="wrapper">
+<!----------------------------------------------HEADER----------------------------------------------------------------->
+        <header>
+            <h1>Daren Rich Customs</h1> <!---HEADING 1--->
+<!-----------------------------------------------NAV------------------------------------------------------------------->
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li> <!---NAV LIST--->
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </header>
+<!-----------------------------------------------MAIN------------------------------------------------------------------>
+        <div id="main">
+
+            <h2>Contact Us</h2> <!---HEADING 2--->
+            <ul id="ul">
+                <li>7227 Sparta Rd, Belton TX, 76513</li> <!---UNORDERED LIST--->
+                <li>254-931-6464</li>
+            </ul>
+        </div>
+
+<h1 class="grey" style="font-size: 28px;"></h1>
+<div class="map_contianer">
+
+    <!-- Dots -->
+    <a class="dot" style="top:99px;  left:113px;" continent="NA" city="dallas"></a>
+    <a class="dot" style="top:83px;  left:87px;"  continent="NA" city="seattle"></a>
+    <a class="dot" style="top:173px; left:387px;" continent="AU" city="perth" ></a>
+    <a class="dot" style="top:71px;  left:236px;" continent="EU" city="london"></a>
+    <a class="dot" style="top:166px; left:182px;" continent="SA" city="riodejaneiro"></a>
+    <a class="dot" style="top:102px; left:271px;" continent="AF" city="tripoli"></a>
+    <a class="dot" style="top:134px; left:153px;" continent="SA" city="bogota"></a>
+    <a class="dot" style="top:93px;  left:141px;" continent="NA" city="newyorkcity"></a>
+    <a class="dot" style="top:164px; left:277px;" continent="AF" city="johannesburg"></a>
+    <a class="dot" style="top:115px; left:375px;" continent="AS" city="phnompenh"></a>
+    <a class="dot" style="top:94px;  left:412px;" continent="AS" city="tokyo"></a>
+    <a class="dot" style="top:89px;  left:386px;" continent="AS" city="tianjin"></a>
+    <a class="dot" style="top:195px; left:153px;" continent="SA" city="puntaarenas"></a>
+    <a class="dot" style="top:96px;  left:320px;" continent="ME" city="buxoro"></a>
+    <a class="dot" style="top:113px; left:343px;" continent="ME" city="anakapalle"></a>
+    <a class="dot" style="top:110px; left:299px;" continent="ME" city="albahr"></a>
+    <a class="dot" style="top:84px;  left:257px;" continent="EU" city="rome"></a>
+    <a class="dot" style="top:76px; left:273px;" continent="EU" city="warszawa"></a>
+    <a class="dot" style="top:180px; left:427px;" continent="AU" city="sydney"></a>
+
+    <!-- Form -->
+    <form id="mapForm" name="mapForm" class="form_continent" method="post" action="">
+        <select name="continent" id="continent">
+            <option value="AF">Africa</option>
+            <option value="AS">Asia</option>
+            <option value="AU">Australia</option>
+            <option value="EU">Europe</option>
+            <option value="NA">North America</option>
+            <option value="ME">Middle East</option>
+            <option value="SA">South America</option>
+            <option value="ALL" selected="selected">Show all continents</option>
+        </select>
+    </form>
+
+    <!-- City details -->
+    <div class="detail_container">
+        <!-- City -->
+        <div class="city_detail">
+            <h3>Choose a city</h3>
+            <p>Look at all of our different locations!</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="city_detail_container">
+<!-- City -->
+<div class="city_detail" id="sydney">
+    <div class="city_info">
+        <h2>Sydney 123</h2>
+        <h3>Australia</h3>
+    </div>
+</div>
+
+<!-- City -->
+<div class="city_detail" id="london">
+    <div class="city_info">
+        <h2>London</h2>
+        <h3>Europe</h3>
+    </div>
+</div>
+
+<!-- City -->
+<div class="city_detail" id="riodejaneiro">
+    <div class="city_info">
+        <h2>Rio de Janeiro</h2>
+        <h3>South America</h3>
+    </div>
+</div>
+
+<!-- City -->
+<div class="city_detail" id="tokyo">
+    <div class="city_info">
+        <h2>Tokyo</h2>
+        <h3>Asia</h3>
+    </div>
+</div>
+
+<!-- City -->
+<div class="city_detail" id="johannesburg">
+    <div class="city_info">
+        <h2>Johannesburg</h2>
+        <h3>Africa</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+<!-- City -->
+<div class="city_detail" id="johannesburg">
+    <div class="city_info">
+        <h2>Johannesburg</h2>
+        <h3>Africa</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+<!-- City -->
+<div class="city_detail" id="dallas">
+    <div class="city_info">
+        <h2>Dallas</h2>
+        <h3>North America</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="seattle">
+    <div class="city_info">
+        <h2>Seattle</h2>
+        <h3>North America</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="perth">
+    <div class="city_info">
+        <h2>Perth</h2>
+        <h3>Australia</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="tripoli">
+    <div class="city_info">
+        <h2>Tripoli</h2>
+        <h3>Africa</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="bogota">
+    <div class="city_info">
+        <h2>Bogot&aacute;</h2>
+        <h3>South America</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="newyorkcity">
+    <div class="city_info">
+        <h2>New York City</h2>
+        <h3>North America</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="phnompenh">
+    <div class="city_info">
+        <h2>Phnom Penh</h2>
+        <h3>Asia</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="tianjin">
+    <div class="city_info">
+        <h2>Tianjin</h2>
+        <h3>Asia</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="puntaarenas">
+    <div class="city_info">
+        <h2>Punta Arenas</h2>
+        <h3>South America</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="buxoro">
+    <div class="city_info">
+        <h2>Buxoro</h2>
+        <h3>Middle East</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="anakapalle">
+    <div class="city_info">
+        <h2>Anakapalle</h2>
+        <h3>Middle East</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="albahr">
+    <div class="city_info">
+        <h2>Al Bahr</h2>
+        <h3>Middle East</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="rome">
+    <div class="city_info">
+        <h2>Rome</h2>
+        <h3>Europe</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+
+<!-- City -->
+<div class="city_detail" id="warszawa">
+    <div class="city_info">
+        <h2>Warszawa</h2>
+        <h3>Europe</h3>
+    </div>
+    <div class="clear_both"></div>
+</div>
+
+</div>
+<!-----------------------------------------------FOOTER---------------------------------------------------------------->
+        <footer>
+            <p>&copy; 2015 Daren Rich Customs. All Rights Reserved.</p> <!---COPYRIGHT--->
+        </footer>
+    </div>
+</body>
+</html>
